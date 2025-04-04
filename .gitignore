@@ -1,5 +1,5 @@
 # CMake build directories
-cmake-build-*/
+/cmake-build-*
 build/
 
 # CLion-specific

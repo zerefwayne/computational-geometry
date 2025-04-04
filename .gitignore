@@ -1,35 +1,17 @@
-/cmake-build-*
-/.idea
+# CMake build directories
+cmake-build-*/
+build/
 
-# Prerequisites
-*.d
+# CLion-specific
+.idea/
+!.idea/runConfigurations/
+!.idea/cmake.xml
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Don't include personal workspace settings
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/.name
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# OS stuff
+.DS_Store
